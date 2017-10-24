@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Daxx Test Suite. " preserve-order="true">
+
+
+    <test name="Task 1">
+        <classes>
+            <class name="test.com.valtech.tests.LatestNewsTest"></class>
+            <class name="test.com.valtech.tests.NavigationTest"></class>
+            <class name="test.com.valtech.tests.OfficeCountTest"></class>
+        </classes>
+    </test>
+
+
+</suite>
