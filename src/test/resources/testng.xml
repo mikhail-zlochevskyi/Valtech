@@ -8,6 +8,7 @@
         <classes>
             <class name="com.valtech.tests.LatestNewsTest"></class>
             <class name="com.valtech.tests.NavigationTest"></class>
+            <class name="com.valtech.tests.NavigationMobileViewTest"></class>
             <class name="com.valtech.tests.OfficeCountTest"></class>
         </classes>
     </test>
