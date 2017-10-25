@@ -1,4 +1,4 @@
-package test.com.valtech;
+package com.valtech;
 
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;

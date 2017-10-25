@@ -1,16 +1,11 @@
-package test.com.valtech.tests;
+package com.valtech.tests;
 
 import com.codeborne.selenide.Condition;
+import com.valtech.MainTest;
+import com.valtech.pages.ContactPage;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-import test.com.valtech.MainTest;
-import test.com.valtech.pages.AboutPage;
-import test.com.valtech.pages.ContactPage;
-import test.com.valtech.pages.ServicesPage;
-import test.com.valtech.pages.WorkPage;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class OfficeCountTest extends MainTest {

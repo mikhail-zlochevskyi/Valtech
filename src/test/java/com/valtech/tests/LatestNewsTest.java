@@ -1,18 +1,17 @@
-package test.com.valtech.tests;
+package com.valtech.tests;
 
+import com.valtech.MainTest;
 import org.testng.annotations.BeforeClass;
-import test.com.valtech.MainTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import test.com.valtech.pages.MainPage;
+import com.valtech.pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
 
 /**
  * Created by mikhail_z on 6/1/17.
  */
-public class LatestNewsTest extends MainTest{
+public class LatestNewsTest extends MainTest {
 
     private MainPage mainPage = new MainPage();
 

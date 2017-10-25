@@ -1,11 +1,12 @@
-package test.com.valtech.pages;
+package com.valtech.pages;
 
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class ServicesPage {
+public class AboutPage {
 
-    public SelenideElement servicesSection = $("#navigationMenuWrapper a[href=\"/services/\"]");
+    public SelenideElement aboutSection = $("#navigationMenuWrapper a[href=\"/about/\"]");
     public SelenideElement pageHeader = $("header > h1");
+
 }

@@ -1,4 +1,4 @@
-package test.com.valtech.pages;
+package com.valtech.pages;
 
 import com.codeborne.selenide.SelenideElement;
 

@@ -6,9 +6,9 @@
 
     <test name="Task 1">
         <classes>
-            <class name="test.com.valtech.tests.LatestNewsTest"></class>
-            <class name="test.com.valtech.tests.NavigationTest"></class>
-            <class name="test.com.valtech.tests.OfficeCountTest"></class>
+            <class name="com.valtech.tests.LatestNewsTest"></class>
+            <class name="com.valtech.tests.NavigationTest"></class>
+            <class name="com.valtech.tests.OfficeCountTest"></class>
         </classes>
     </test>
 
