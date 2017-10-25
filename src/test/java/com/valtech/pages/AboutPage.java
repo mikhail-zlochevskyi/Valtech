@@ -7,6 +7,6 @@ import static com.codeborne.selenide.Selenide.$;
 public class AboutPage {
 
     public SelenideElement aboutSection = $("#navigationMenuWrapper a[href=\"/about/\"]");
-    public SelenideElement pageHeader = $("header > h1");
+    public SelenideElement pageHeader = $("div.page-header");
 
 }

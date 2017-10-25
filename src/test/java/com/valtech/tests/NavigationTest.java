@@ -1,5 +1,6 @@
 package com.valtech.tests;
 
+import com.codeborne.selenide.Condition;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -31,12 +32,18 @@ public class NavigationTest extends MainTest{
         SoftAssert softAssert = new SoftAssert();
 
         aboutPage.aboutSection.click();
+        aboutPage.aboutSection.click();
+        aboutPage.pageHeader.shouldBe(Condition.exist);
         softAssert.assertEquals(aboutPage.pageHeader.getText(), ABOUT_PAGE_HEADER_NAME, "Wrong header on About page!");
 
         servicesPage.servicesSection.click();
+        servicesPage.servicesSection.click();
+        servicesPage.pageHeader.shouldBe(Condition.exist);
         softAssert.assertEquals(servicesPage.pageHeader.getText(), SERVICES_PAGE_HEADER_NAME, "Wrong header on Service page!");
 
         workPage.workSection.click();
+        workPage.workSection.click();
+        workPage.pageHeader.shouldBe(Condition.exist);
         softAssert.assertEquals(workPage.pageHeader.getText(), WORK_PAGE_HEADER_NAME, "Wrong header on Work page!");
 
         softAssert.assertAll();
